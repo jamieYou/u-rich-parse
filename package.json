@@ -1,0 +1,16 @@
+{
+  "name": "u-rich-parse",
+  "version": "1.0.0",
+  "description": "uni-app 富文本解析组件",
+  "main": "index.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamieYou/u-rich-parse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamieYou/u-rich-parse/issues"
+  },
+  "homepage": "https://github.com/jamieYou/u-rich-parse#readme"
+}
