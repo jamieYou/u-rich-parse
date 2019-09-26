@@ -99,7 +99,13 @@
 </template>
 
 <script>
+  import RenderNodes from './render-nodes'
+
   export default {
+    components: {
+      RenderNodes
+    },
+
     props: {
       nodes: {
         type: Array,

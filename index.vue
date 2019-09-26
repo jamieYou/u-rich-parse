@@ -6,8 +6,13 @@
 
 <script>
   import { html2json } from './helper/html2json'
+  import RenderNodes from './render-nodes'
 
   export default {
+    components: {
+      RenderNodes
+    },
+
     props: {
       content: {
         type: String,
