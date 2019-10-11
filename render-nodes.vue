@@ -48,7 +48,7 @@
           <image
             :class="item.classStr" class="rich-parse-img"
             :src="item.attr.src" mode="widthFix"
-            :style="'' + `width: ${imageWidths[item.attr.src_key]}px; ${item.styleStr}`"
+            :style="'' + `width: ${imageWidths[item.attr.src_key]}px; ${item.styleStr} height: 0;`"
             @click="onImgTap(item.attr.src)" @load="onImgLoad(item.attr.src_key, $event)"
           ></image>
         </block>
